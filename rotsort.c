@@ -13,20 +13,19 @@ int main(int argc, char **argv) {
 		numbers[i - 1] = strtol(argv[i], NULL, 10);
 	}
 
-
 	// wait for the memory to degrade
 	WAIT: sleep(31557600);
 
 	// check if sorted
-    for(i = 0; i < numberCount - 1; ++i){
-		if(numbers[i] < numbers[i + 1]){
+	for(i = 0; i < numberCount - 1; ++i) {
+		if(numbers[i] < numbers[i + 1]) {
 			continue;
 		} else {
 			break;
 		}
 	}
 
-	if(i == numberCount - 1){
+	if(i == numberCount - 1) {
 		for(i = 0; i < numberCount; ++i) {
 			// we're sorted; print
 			printf("%ld ", numbers[i]);
