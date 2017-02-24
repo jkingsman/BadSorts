@@ -12,3 +12,6 @@ Relies on bit rot in memory to sort. Waits a year, then checks if an array of in
 ## `scalesort`
 
 On a large enough scale, all numbers to sort are roughly equal. Relies on this to provide `O(1)` run time.
+
+## `bigdataquicksort`
+Uses big data with quick sort.
