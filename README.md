@@ -7,7 +7,7 @@ May be compiled by running `make [sortname]` or `make all` to compile all.
 
 ## `rotsort`
 
-Relies on bit rot in memory to sort. Waits a year, then checks if an array of integers is sorted due to memory degradation. If not, it waits another year.
+Relies on bit rot in memory to sort. Waits a year, then checks if an array of integers is sorted due to memory degradation. If not, it waits another year, which it will continue doing until the array is sorted.
 
 ## `scalesort`
 
