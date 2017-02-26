@@ -1,4 +1,4 @@
-all: rotsort scalesort bigdataquicksort
+all: rotsort scalesort bigdataquicksort conwaysort
 
 rotsort: rotsort.c
 	gcc -o rotsort -Wall -Wpedantic -Wextra rotsort.c
@@ -9,5 +9,8 @@ scalesort: scalesort.c
 bigdataquicksort: bigdataquicksort.c
 	gcc -o bigdataquicksort -Wall -Wpedantic -Wextra bigdataquicksort.c
 
+conwaysort: bigdataquicksort.c
+	gcc -o conwaysort -Wall -Wpedantic -Wextra conwaysort.c
+
 clean:
-	rm -f rotsort scalesort bigdataquicksort a
+	rm -f rotsort scalesort bigdataquicksort conwaysort a

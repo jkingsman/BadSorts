@@ -15,3 +15,6 @@ On a large enough scale, all numbers to sort are roughly equal. Relies on this t
 
 ## `bigdataquicksort`
 Uses big data with quick sort.
+
+## `conwaysort`
+Sorts an array by providing a sorted "Alternative Values" output. If the new array does not appear sorted, you have been manipulated by MSM. (credit to [/u/Pyroan](https://www.reddit.com/user/Pyroan))
